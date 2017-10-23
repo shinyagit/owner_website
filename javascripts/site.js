@@ -1,0 +1,1 @@
+$(document).ready(function(){hsize=$(window).height(),$(".wrapper-900, .wrapper-full, .top-page .screen-image").css("height",hsize+"px")}),$(window).resize(function(){hsize=$(window).height(),$(".wrapper-900, .wrapper-full, .top-page .screen-image").css("height",hsize+"px")});
