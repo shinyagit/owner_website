@@ -1,9 +1,31 @@
-body {
-  background-color: rgb(29, 100, 150);
+html {
+  height: 100%;
+  font-size: 62.5%;
 }
 
-.wrapper {
+// -------------------------
+
+.top-page {
+  position: relative;
+}
+.top-page .screen-image {
+  position: relative;
   width: 100%;
-  height: 100vh;
-  background-color: rgb(172, 184, 74);
+}
+
+.screen-image-1 {background-image: url(/images/grunge_wall.png);}
+.screen-image-2 {background-image: url(/images/struckaxiom.png);}
+.screen-image-3 {background-image: url(/images/bright_squares.png);}
+
+.screen-image .over-lay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image:    -moz-radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.95));
+  background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.95));
+  background-image:     -ms-radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.95));
+  background-image:      -o-radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.95));
+  background-image:         radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.95));
 }
